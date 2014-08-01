@@ -24,6 +24,6 @@ public class CalculatorTest {
     @Test
     public void testAdd2Plus3_ShouldGive5() {
         int sum = mCalculator.add(2, 3);
-        assertThat(sum, is(equalTo(6)));
+        assertThat(sum, is(equalTo(5)));
     }
 }
