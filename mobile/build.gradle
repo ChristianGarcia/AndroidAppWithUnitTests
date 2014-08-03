@@ -1,8 +1,12 @@
 apply plugin: 'com.android.application'
 
+repositories {
+    mavenCentral()
+}
+
 android {
     compileSdkVersion 20
-    buildToolsVersion "20.0.0"
+    buildToolsVersion '20.0.0'
 
     defaultConfig {
         applicationId "dev.garcia.christian.appwithtests"
@@ -19,16 +23,17 @@ android {
     }
 }
 
+
+
 apply plugin: 'android-unit-test'
 
-dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    wearApp project(':wear')
-    compile 'com.google.android.gms:play-services-wearable:+'
 
+
+dependencies {
     testCompile 'org.mockito:mockito-core:1.9.5'
     testCompile 'junit:junit:4.11'
     testCompile 'org.robolectric:robolectric:2.3'
+    compile project(':library')
 }
 
 
