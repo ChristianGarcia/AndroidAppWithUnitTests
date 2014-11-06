@@ -3,7 +3,7 @@ AndroidAppWithUnitTests
 
 Example of and Android App with unit tests that run both from Android Studio IDE (with a plugin) and from command line (for CI).
 
-This project has the minimal code to prove a bug in the Android Studio Unit test plugin, by which the binaries are not generated if any of the modules have a dependency with an Android library module
+**This project has the minimal code to prove a bug in the Android Studio Unit test plugin, by which the binaries are not generated if any of the modules have a dependency with an Android library module**
 
 
 ### Requirements
