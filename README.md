@@ -1,5 +1,7 @@
-AndroidAppWithUnitTests
-=======================
+AndroidAppWithUnitTests (DEPRECATED)
+====================================
+
+**DEPRECATED** Android Studio supports Unit tests without the need for other 3rd party plugins
 
 Example of and Android App with unit tests that run both from Android Studio IDE (with a plugin) and from command line (for CI).
 
